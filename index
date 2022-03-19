@@ -11,7 +11,6 @@
         <model-viewer
           ar
           ar-modes="scene-viewer webxr quick-look"
-          skybox-img="./source/je_gray_park_4k.hdr"
           src="./source/Suzanne.glb"
           ios-src="./source/Suzanne.usdz"
           alt="Suzanne"
