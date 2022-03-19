@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Suzanne</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    </head>
+    <body>
+        <h1>Suzanne</h1>
+        <img src="./source/render.png" alt="render"></img.src>
+        <model-viewer
+          ar
+          ar-modes="scene-viewer webxr quick-look"
+          skybox-img="./source/je_gray_park_4k.hdr"
+          src="./source/Suzanne.glb"
+          ios-src="./source/Suzanne.usdz"
+          alt="Suzanne"
+          auto-rotate
+          camera-controls
+        ></model-viewer>
+        <br>
+    </body>
+</html>
